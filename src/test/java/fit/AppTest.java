@@ -1,8 +1,6 @@
 package fit;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 
 /**
@@ -23,7 +21,7 @@ public class AppTest
         // arrange
         double altura = 1.77;
         double peso = 50;
-
+             
         // act
         String indice = CalculadoraImc.obterIndice(altura, peso);
 
