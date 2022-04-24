@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )    
     {
-      System.out.println(CalculadoraImc.obterIndice(1.7, 280));
+      System.out.println(CalculadoraImc.obterIndice(1.7, 30));
 
     }
 }
